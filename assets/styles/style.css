@@ -52,7 +52,7 @@ body {
 .presentacion {
     display: flex;
     align-items: center;
-    padding: 2% 8%;
+    padding: 4% 8%;
     justify-content: space-between;
     gap: 82px;
 }
@@ -138,12 +138,16 @@ strong {
 
 .footer{
     background-color: var(--color-boton-footer);
-    padding: 24px;
+    padding: 10px;
     color: var(--color-texto);
     text-align: center;
     font-family: var(--fuente-montserrat);
     font-weight: 400;
     font-size: 16px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 @media(max-width: 1200px){
